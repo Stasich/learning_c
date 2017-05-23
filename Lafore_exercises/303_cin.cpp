@@ -2,7 +2,7 @@
 // Created by stasich on 19.04.17.
 //
 #include <iostream>
-#include "../listingls/part3/getch_stasich.h"
+#include "getch_stasich.h"
 using namespace std;
 
 int main()
