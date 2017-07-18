@@ -34,7 +34,7 @@ int main()
         wcin >> ch;
         wcin.get();
         j++;
-    } while( ch != 'n' && j < 100);
+    } while( ch != 'n' && j < MAX);
     for (int i =0; i < j; i++)
     {
         employees[i].put_data();
