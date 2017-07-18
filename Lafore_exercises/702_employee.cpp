@@ -23,10 +23,10 @@ int main()
 {
     locale::global( locale( "" ) );
     ios::sync_with_stdio( false );
-    const int MAX = 101;
+    const int MAX = 100;
     employee employees[MAX];
     wchar_t ch;
-    int j = 0;
+    int j = 97;
     do
     {
         employees[j].get_data();
@@ -34,7 +34,7 @@ int main()
         wcin >> ch;
         wcin.get();
         j++;
-    } while( ch != 'n');
+    } while( ch != 'n' && j < 100);
     for (int i =0; i < j; i++)
     {
         employees[i].put_data();
