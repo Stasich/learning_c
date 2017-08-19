@@ -40,6 +40,7 @@ int main()
         getline( cin, str ); b2.putmoney( str );
         cout << "Введите число с плавающей точкой: ";
         cin >> ld;
+        cin.get();
         b3 = b1 + b2;
         b1.show(); cout << " + "; b2.show(); cout << " = "; b3.show(); cout << endl;
         b3 = b1 - b2;
