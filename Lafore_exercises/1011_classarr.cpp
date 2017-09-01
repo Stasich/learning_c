@@ -1,4 +1,4 @@
-// 1011_classarr.cpp
+// 1011_classarr.cpp для смены комита
 #include <iostream>
 using namespace std;
 
